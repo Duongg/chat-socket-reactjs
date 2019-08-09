@@ -1,14 +1,14 @@
 import React from 'react';
 
-export default class App extends React.Component{
+export default class messageItem extends React.Component{
 	render(){
 		return(
 			<li className={this.props.user ? 'message right' : 'message left'}>
 				<div className="avatar"><img src="" alt="user" /></div>
 				<div className="text_wrapper">
-					<div className="box bg-light-info">{this.props.message}</div>
+					<div className="text"><b>{this.props.message.userName}</b><br/><br/>{this.props.message.message}</div>
 				</div>
-				<div className="time">10:56 am</div>
+				
 			</li>
 			)
 	}

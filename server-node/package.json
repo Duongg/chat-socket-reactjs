@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ththth0303/server-chat.git"
+    "url": "git+https://github.com/Duongg/chat-socket-reactjs/tree/master/server-node.git"
   },
-  "author": "thangnt",
+  "author": "Duongg",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ththth0303/server-chat/issues"
+    "url": "https://github.com/ththth0303/chat-server/blob/master/issues"
   },
-  "homepage": "https://github.com/ththth0303/server-chat#readme",
+  "homepage": "https://github.com/ththth0303/chat-server/blob/master/README.md",
   "dependencies": {
     "ejs": "^2.5.7",
     "express": "^4.15.4",
