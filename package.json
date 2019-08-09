@@ -1,9 +1,9 @@
 {
-  "name": "chat-client",
+  "name": "chat-socket-reactjs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Duongg/chat-socket-reactjs",
-  "author": "Thang",
+  "homepage": "https://Duongg.github.io/chat-socket-reactjs",
+  "author": "Duongg",
   "dependencies": {
     "jquery": "^3.4.1",
     "lodash": "^4.17.15",
