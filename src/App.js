@@ -32,7 +32,7 @@ export default class App extends React.Component{
     messages.push({
       id:max+1,
       userId: m.id,
-      message: m.data
+      message: m.data,
       userName: m.user.name
     });
     let objMessage = $('.messages');
