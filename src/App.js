@@ -19,7 +19,7 @@ export default class App extends React.Component{
   //connect với server node js thong qua socket.io
   componentWillMount(){
     console.log(this.state.user);
-    this.socket = io('localhost:6969');
+    this.socket = io('https://ole-chat-69.herokuapp.com/');
     this.socket.on('newMessage',(response) => {this.newMessage(response)});
     this.socket.on('loginFail',(response)=>{alert('Tên đã có người sử dụng')});
     this.socket.on('loginSuccess',(response)=>{this.setState({user: {id: this.socket.id, name: response}})});
